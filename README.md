@@ -20,7 +20,19 @@ c. using <em> f string </em>
 <li> taking input </li>
 </ol>
 
+---
+
+Things learned:
+1. string concatenation
+   - using `+`
+   - using `string.format` with `{ }`
+   - using `f` string:<br>
+   `example: print(f "string {variable name}")`
+2. taking input
+
+---
+
+
 Things to work on: <hr>
 - loop back and ask if user wants a new story
-- make the inputs random in the stories
--  might need to make a dict(?)
+- make stories or input random (?)
