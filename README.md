@@ -3,6 +3,7 @@
 ## Python Projects
 ### Table of Contents
 1. [Mad Libs](#mad_libs)
+2. [Guess the Number](#guess_numb)
 
 
 ## Mad Libs <a name = mad_libs> </a>
@@ -31,8 +32,10 @@ Things learned:
 2. taking input
 
 ---
-
-
 Things to work on: <hr>
 - loop back and ask if user wants a new story
 - make stories or input random (?)
+
+## Guess the Number <a name = guess_numb)> </a>
+Imported <hr>
+`import random`:
