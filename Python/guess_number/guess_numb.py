@@ -16,20 +16,25 @@ def guess(x):
     
 
 #step 2: guess the number; loop until right answer
-    while turn_counter<6:
+    while turn_counter <5:
         guess = int(input(f"Guess a number between 1 and {x}: "))
         #turn counter
-        turn_counter = turn_counter +1
+        turn_counter+=1
         #tells us if number is too high, low, or correct
         if guess < random_numb:
             print('Youre guess is too low')
         elif guess > random_numb:
             print("Your guess is too high")
-        elif guess == random_numb:
-            print("Wao, you guessed it right in " +str(turn_counter)+ " guesses!")
+        else:
+             guess == random_numb
+             break
+
+            
+    if guess==random_numb:
+        print("Wao, you guessed it right in " +str(turn_counter)+ " guesses!")
     else:
         print("Sorry, the number I am thinking is " +str(random_numb))
         print("Let's play again next time!")
 
-guess(1000)
+guess(50)
 
